@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  content:
+    build: .
+    restart: always
+    ports:
+      - 80:80
+    volumes:
+      - ./content:/usr/share/nginx/html
