@@ -1,0 +1,24 @@
+{
+  "name": "shlokas-content",
+  "version": "1.0.0",
+  "description": "<a href=\"https://github.com/akdasa-studios/shlokas\">     <p align=\"center\">         <img src=\"https://raw.githubusercontent.com/akdasa-studios/shlokas/main/docs/logo.svg\" height=\"184px\"/>     </p> </a>",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akdasa-studios/shlokas-content.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akdasa-studios/shlokas-content/issues"
+  },
+  "homepage": "https://github.com/akdasa-studios/shlokas-content#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
