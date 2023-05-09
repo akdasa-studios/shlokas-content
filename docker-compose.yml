@@ -1,4 +1,6 @@
+name: shlokas
 version: "3.9"
+
 
 services:
   content:
@@ -8,3 +10,8 @@ services:
       - 80:80
     volumes:
       - ./content:/app/content
+
+
+networks:
+  shlokas:
+    name: shlokas
